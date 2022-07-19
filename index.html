@@ -1,0 +1,87 @@
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+  
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="parent min-vh-100 pt-5 ">
+
+    <div class=" w-50 m-auto p-5 text-center   " id="chiled1">
+      <h1 class="my-4 text-info">Smart Login System</h1>
+      <input class="form-control my-lg-4 bg-transparent text-white" type="text" name="" id="emailInputCheck"
+        placeholder="Enter your email">
+      <input class="form-control my-lg-4 bg-transparent text-white" type="password" name="" id="passInputCheck"
+        placeholder="Enter your password">
+
+      <span id="incorrectEmailOrPass" class="text-danger d-none">incorrect email or password</span>
+
+      <span id="allInputIsRequired" class="text-danger d-none"> all Input Is Required</span>
+
+      <button id="btnLogin" class=" btn  btn-outline-info form-control my-lg-4  ">Login</button>
+      <p class="text-white">Dont have an account? <a id="signUp"> sgin up</a></p>
+
+      <!--  -->
+
+    </div>
+
+
+
+    <div class=" w-50 m-auto p-5 text-center d-none" id="chiled2">
+      <h2 class="my-4 text-info" id="smartLoagin" >Smart Login System</h2>
+
+      <input class="form-control  bg-transparent text-white" type="text" name="" id="inputName"
+        placeholder="Enter your name">
+
+      <p id="errorMessage1" class="bg-danger text-white my-1 p-2 d-none ">Only lowercase and uppercase letters are
+        allowed, no less than five, no more than twenty, and spaces and numbers are not allowed</p>
+      <p id="errorMessageName" class="bg-danger text-white my-1 p-2 d-none ">This name is already in use, please choose
+        another name</p>
+      <input class="form-control mt-4 bg-transparent text-white" type="text" name="" id="inputEmail"
+        placeholder="Enter your email">
+      <p id="errorMessageEmail" class="bg-danger text-white my-1 p-2 d-none ">This email is already in use, please
+        choose another email</p>
+      <p id="errorMessage2" class="bg-danger text-white my-1 p-2 d-none  errorMessage">Enter a real email
+        liked(mohamed@yahoo.com)</p>
+      <input class=" form-control mt-4 bg-transparent text-white" type="password" name="" id="inputPass"
+        placeholder="Enter your password">
+      <p id="errorMessage3" class="bg-danger text-white my-1 p-2 d-none  errorMessage">It must begin with an uppercase
+        letter and then be followed by lowercase letters or numbers. Password must be more than six and not more than
+        twenty</p>
+      <h5 id="success" class="text-success d-none">success</h6>
+        <span id="allInputIsRequired2" class="text-danger d-none "> all Input Is Required</span>
+        <button id="btnSingUp" class=" btn btn-outline-info form-control mt-4  ">sign up</button>
+        <p class="text-white  my-3">You have an account? <a id="SingIn"> Sign in</a></p>
+    </div>
+  </div>
+
+
+  <div id="clientPage" class="w-100 h-100  fixed-top  d-flex align-items-center justify-content-center d-none ">
+    <div id="clientPageParent" class="w-80 text-center text-info fw-bolder fs-3"> </div>
+    <div class="bg-dark fixed-top">
+      <div class=" p-3 w-75 m-auto nav d-flex justify-content-between">
+        <h4 class="text-white">SMART LOGIN</h4>
+        <button id="btnLogout" class="btn btn-outline-warning ">Log out</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

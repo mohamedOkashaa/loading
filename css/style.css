@@ -1,0 +1,155 @@
+.parent {
+    background: #24353f;
+}
+
+#chiled1,
+#chiled2 {
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background: #24353f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+#clientPage {
+    background: #24353f;
+}
+
+#clientPageParent {
+    padding: 50px;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    background: #24353f;
+}
+
+/*  */
+
+
+input,
+input[placeholder] {
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width:450px) {
+
+    #chiled1 {
+        width: 80% !important;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    input,
+    input[placeholder] {
+        font-size: 9px;
+        font-weight: bolder;
+    }
+
+    #btnLogin {
+        margin-top: 10px;
+    }
+
+    #chiled2 {
+        width: 90% !important;
+    }
+
+    #smartLoagin {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width:451px)and (max-width:600px) {
+
+
+    #chiled1 {
+        width: 80% !important;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    input,
+    input[placeholder] {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+
+    #btnLogin {
+        margin-top: 10px;
+    }
+
+    #chiled2 {
+        width: 90% !important;
+    }
+
+    #smartLoagin {
+        font-size: 25px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:601px)and (max-width:800px) {
+    #chiled1 {
+        width: 80% !important;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    input[placeholder] {
+        font-size: 17px;
+    }
+
+    #btnLogin {
+        margin-top: 10px;
+    }
+
+    #chiled2 {
+        width: 90% !important;
+    }
+
+    #smartLoagin {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (min-width:801px)and (max-width:1000px) {
+    #chiled1 {
+        width: 70% !important;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    input[placeholder] {
+        font-size: 17px;
+    }
+
+    #btnLogin {
+        margin-top: 10px;
+    }
+}
